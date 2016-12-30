@@ -186,7 +186,11 @@ header {
     display: -webkit-flex;
     display: flex;
     padding: 0;
+    margin-bottom: 50px;
+}
 
+.apps-buttons a:last-child {
+    margin-left: 30px;
 }
 
 .apps-buttons a:hover{
@@ -393,7 +397,7 @@ header {
 
 .div-container {
     padding: 0;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 
