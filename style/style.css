@@ -319,8 +319,9 @@ header {
     padding-top: 100px;
 }
 
-.counter img {
+.iphone-counter {
     position: absolute;
+    max-width: 400px;
 }
 
 .buttons-list {
@@ -393,6 +394,7 @@ header {
     display: -webkit-flex;
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .div-container {
