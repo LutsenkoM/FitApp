@@ -101,18 +101,18 @@ $(document).ready(function () {
                 showPage = function(i){
                     $(tabs).children("div").children("div").hide();
                     $(tabs).children("div").children("div").eq(i).show();
-                    $(tabs).children("ul").children("li").children("a").removeClass("active");
-                    $(tabs).children("ul").children("li").children("a").eq(i).addClass("active");
+                    $(tabs).children('.div-left').children("ul").children("li").children("a").removeClass("active");
+                    $(tabs).children('.div-left').children("ul").children("li").children("a").eq(i).addClass("active");
                 }
 
                 showPage(2);
 
-                $(tabs).children("ul").children("li").each(function(index, element){
+                $(tabs).children('.div-left').children("ul").children("li").each(function(index, element){
                     $(element).attr("data-page", i);
                     i++;
                 });
 
-                $(tabs).children("ul").children("li").click(function(){
+                $(tabs).children('.div-left').children("ul").children("li").click(function(){
                     showPage(parseInt($(this).attr("data-page")));
                 });
             };
