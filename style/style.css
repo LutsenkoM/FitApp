@@ -313,6 +313,7 @@ header {
 
 .counter {
     padding-top: 100px;
+    position: relative;
 }
 
 .iphone-counter {
@@ -398,80 +399,6 @@ header {
     padding: 0;
     margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*.counter .container {*/
-    /*display: -webkit-box;*/
-    /*display: -moz-box;*/
-    /*display: -ms-flexbox;*/
-    /*display: -webkit-flex;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-/*}*/
-
-/*.buttons-list li {*/
-    /*margin: 20px 0;*/
-/*}*/
-
-/*.buttons-list li.even {*/
-    /*display: -webkit-box;*/
-    /*display: -moz-box;*/
-    /*display: -ms-flexbox;*/
-    /*display: -webkit-flex;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-/*}*/
-
-/*.buttons-list li.middle {*/
-    /*display: -webkit-box;*/
-    /*display: -moz-box;*/
-    /*display: -ms-flexbox;*/
-    /*display: -webkit-flex;*/
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
-/*}*/
-
-
-/*.buttons-list li a{*/
-    /*display: -webkit-box;*/
-    /*display: -moz-box;*/
-    /*display: -ms-flexbox;*/
-    /*display: -webkit-flex;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*width: 60px;*/
-    /*height: 60px;*/
-    /*background-color: #e7e7e7;*/
-    /*border-radius: 50%;*/
-/*}*/
-
-/*.buttons-list li a:hover {*/
-    /*background-color: #2ecc71;*/
-    /*-webkit-transform: scale(1.2, 1.2);*/
-
-/*}*/
-
-/*.active {*/
-    /*background-color: #2ecc71;*/
-    /*-webkit-transform: scale(1.2, 1.2);*/
-/*}*/
-
-
-/*#sound-text , #days-text , #growth-text {*/
-    /*display: none;*/
-/*}*/
-
-
 
 /*---FOOTER---*/
 
