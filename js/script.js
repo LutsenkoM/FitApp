@@ -95,24 +95,23 @@ $(document).ready(function () {
         jQuery.fn.lightTabs = function(options){
 
             var createTabs = function(){
-                tabs = this;
                 i = 0;
 
                 showPage = function(i){
-                    $(tabs).children("div").children("div").hide();
-                    $(tabs).children("div").children("div").eq(i).show();
-                    $(tabs).children('.div-left').children("ul").children("li").children("a").removeClass("active");
-                    $(tabs).children('.div-left').children("ul").children("li").children("a").eq(i).addClass("active");
+                    $(this).children("div").children("div").hide();
+                    $(this).children("div").children("div").eq(i).show();
+                    $(this).children('.div-left').children("ul").children("li").children("a").removeClass("active");
+                    $(this).children('.div-left').children("ul").children("li").children("a").eq(i).addClass("active");
                 }
 
                 showPage(2);
 
-                $(tabs).children('.div-left').children("ul").children("li").each(function(index, element){
+                $(this).children('.div-left').children("ul").children("li").each(function(index, element){
                     $(element).attr("data-page", i);
                     i++;
                 });
 
-                $(tabs).children('.div-left').children("ul").children("li").click(function(){
+                $(this).children('.div-left').children("ul").children("li").click(function(){
                     showPage(parseInt($(this).attr("data-page")));
                 });
             };
