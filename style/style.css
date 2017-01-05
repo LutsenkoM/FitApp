@@ -329,7 +329,9 @@ header {
 
 .iphone-counter {
     position: absolute;
-
+    margin-top: -50px;
+    margin-left: 15px;
+    width: 330px;
 }
 
 .buttons-list {
@@ -339,8 +341,8 @@ header {
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
-    width: 470px;
-    height: 470px;
+    width: 430px;
+    height: 430px;
     border: 1px solid #e7e7e7 ;
     border-radius: 50%;
     margin-left: 50px;
@@ -409,7 +411,7 @@ header {
 }
 
 .buttons-list li:first-child a,.buttons-list li:last-child a {
-    right: 72px;
+    right: 55px;
 }
 
 .tabs {
@@ -424,7 +426,10 @@ header {
 
 .div-container {
     padding: 0;
-    margin-left: 50px;
+}
+
+.div-container h2{
+    margin-bottom: 20px;
 }
 
 /*---FOOTER---*/
