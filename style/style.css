@@ -329,9 +329,9 @@ header {
 
 .iphone-counter {
     position: absolute;
-    margin-top: -50px;
+    margin-top: -70px;
     margin-left: 15px;
-    width: 330px;
+    width: 350px;
 }
 
 .buttons-list {
@@ -367,6 +367,7 @@ header {
     width: 60px;
     height: 60px;
     background-color: #e7e7e7;
+    border: 2px solid #fff;
     border-radius: 50%;
 }
 
@@ -382,6 +383,7 @@ header {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
  }
 
 .tabs ul li a.active {
@@ -396,6 +398,7 @@ header {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
 
 .buttons-list li:nth-child(3) {
@@ -424,8 +427,13 @@ header {
     margin-bottom: 100px;
 }
 
+.div-left {
+    margin-left: -60px;
+}
+
 .div-container {
     padding: 0;
+    margin-left: 80px;
 }
 
 .div-container h2{
